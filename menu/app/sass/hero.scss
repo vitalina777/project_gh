@@ -1,0 +1,34 @@
+#adapt{text-align:center;
+  background:#333;
+  line-height:45px;
+  position:relative;
+  color:#fff;
+}
+
+.menu-title:after{
+  content:"Меню";
+  position:absolute;
+  top:0;right:-45px;
+  color:#fff;
+  line-height:35px;
+}
+.menu-title{
+  position:relative;
+  background:url(../img/menu.png) no-repeat center;
+  width:30px;height:35px;
+  margin:0 auto;
+}
+
+.menu-body{
+  position:relative;
+  z-index:2;
+  margin-top:10px;
+}
+.menu-body li{
+  line-height:35px;
+}
+
+@media (max-width: 480px) {
+  #adapt{display:block;}
+  #menu{display:none;}
+}
